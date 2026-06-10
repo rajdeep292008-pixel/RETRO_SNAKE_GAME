@@ -1,6 +1,8 @@
 # RETRO_SNAKE_GAME
 This is game made with the help of A.I. tools to revoke the old nostalgia
 
+---
+
 # Snake Neon-Retro - CRT Arcade Engine Prototype
 
 An immersive, terminal-themed responsive retro arcade application prototype replicating the iconic 1970s block-grid game mechanics. This file uses HTML5 Canvas and real-time linear rendering loops to build an authentic cyberpunk aesthetic.
