@@ -1,0 +1,53 @@
+/* Difficulty & Theme row styling – additive, no conflict with existing CSS */
+
+.enh-difficulty-row,
+.enh-theme-row {
+    display: flex;
+    gap: 15px;
+    justify-content: center;
+    align-items: center;
+    margin: 15px 0 10px 0;
+    font-family: 'VT323', monospace;
+    font-size: 1.2rem;
+}
+
+.enh-diff-btn,
+.enh-theme-btn {
+    background: transparent;
+    border: 1px solid var(--snake-color);
+    color: var(--snake-color);
+    padding: 5px 15px;
+    font-family: 'VT323', monospace;
+    font-size: 1.2rem;
+    cursor: pointer;
+    transition: all 0.1s ease;
+    margin-top: 0;
+}
+
+.enh-diff-btn:hover,
+.enh-theme-btn:hover {
+    background: var(--snake-color);
+    color: #000;
+}
+
+.enh-diff-btn.active,
+.enh-theme-btn.active {
+    background: var(--snake-color);
+    color: #000;
+    box-shadow: 0 0 8px var(--snake-color);
+    border-width: 2px;
+}
+
+/* Responsive adjustments */
+@media (max-width: 500px) {
+    .enh-difficulty-row,
+    .enh-theme-row {
+        gap: 8px;
+        font-size: 1rem;
+    }
+    .enh-diff-btn,
+    .enh-theme-btn {
+        padding: 3px 10px;
+        font-size: 1rem;
+    }
+}

@@ -1,0 +1,59 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no"
+    />
+    <title>SNAKE NEON-RETRO</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=VT323&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/enhancements.css">
+  </head>
+  <body>
+    <div id="ui-bar">
+      <div>SCORE: <span id="current-score">000</span></div>
+      <div>BEST: <span id="high-score">000</span></div>
+    </div>
+
+    <div id="game-container">
+      <canvas id="gameCanvas"></canvas>
+
+      <div id="start-screen" class="overlay">
+        <h1>SNAKE_RETRO</h1>
+        <p>Relive the classic memories.</p>
+
+        <!-- Difficulty row -->
+<div class="enh-difficulty-row">
+    <span>DIFFICULTY:</span>
+    <button class="enh-diff-btn" data-diff="easy">EASY</button>
+    <button class="enh-diff-btn" data-diff="normal">NORMAL</button>
+    <button class="enh-diff-btn" data-diff="hard">HARD</button>
+</div>
+
+<!-- Theme row -->
+<div class="enh-theme-row">
+    <span>THEME:</span>
+    <button class="enh-theme-btn" data-theme="neon">NEON</button>
+    <button class="enh-theme-btn" data-theme="cyberpunk">CYBERPUNK</button>
+    <button class="enh-theme-btn" data-theme="golden">GOLDEN</button>
+</div>
+
+        <button id="start-btn">PRESS START</button>
+      </div>
+
+      <div id="game-over-screen" class="overlay hidden">
+        <h1 style="color: var(--food-color)">GAME OVER</h1>
+        <p>SCORE: <span id="final-score">0</span></p>
+        <button id="restart-btn">TRY AGAIN</button>
+      </div>
+    </div>
+
+    <script src="js/script.js"></script>
+    <script src="js/enhancements.js"></script>
+  </body>
+</html>
