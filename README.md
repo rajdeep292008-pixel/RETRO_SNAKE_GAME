@@ -1,6 +1,8 @@
 # RETRO_SNAKE_GAME
 This is game made with the help of A.I. tools to revoke the old nostalgia
 
+PLAY NOW[( https://rajdeep292008-pixel.github.io/RETRO_SNAKE_GAME/)]
+
 ---
 
 # Snake Neon-Retro - CRT Arcade Engine Prototype
